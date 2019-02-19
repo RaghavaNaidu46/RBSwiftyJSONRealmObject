@@ -7,7 +7,7 @@
 //
 
 import RealmSwift
-import SwiftyJSON
+import RBSwiftyJSON
 
 /**
  SwiftyJSONRealmObject
