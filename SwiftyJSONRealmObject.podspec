@@ -33,7 +33,7 @@ It permit you to initialize your Realm Object directly from SwiftyJSON object, b
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'RBSwiftyJSONRealmObject/Classes/**/*'
+  s.source_files = 'SwiftyJSONRealmObject/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SwiftyJSONRealmObject' => ['SwiftyJSONRealmObject/Assets/*.png']
