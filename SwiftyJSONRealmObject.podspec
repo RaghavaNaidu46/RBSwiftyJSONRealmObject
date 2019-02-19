@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SwiftyJSONRealmObject'
+  s.name             = 'RBSwiftyJSONRealmObject'
   s.version          = '1.0.0'
   s.summary          = 'A easy way to use SwiftyJSON object with Realm'
 
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 It permit you to initialize your Realm Object directly from SwiftyJSON object, both for signle object than for a list of them.
                        DESC
 
-  s.homepage         = 'https://github.com/CorlaOnline/SwiftyJSONRealmObject'
+  s.homepage         = 'https://github.com/RaghavaNaidu46/RBSwiftyJSONRealmObject'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alex Corlatti' => 'alex.corlatti@gmail.com' }
-  s.source           = { :git => 'https://github.com/CorlaOnline/SwiftyJSONRealmObject.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/corlaonline'
+  s.author           = { 'Alex Corlatti' => 'raghava.dokala@gmail.com' }
+  s.source           = { :git => 'https://github.com/RaghavaNaidu46/RBSwiftyJSONRealmObject.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/RAMRAGHAV481'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'SwiftyJSONRealmObject/Classes/**/*'
+  s.source_files = 'RBSwiftyJSONRealmObject/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SwiftyJSONRealmObject' => ['SwiftyJSONRealmObject/Assets/*.png']
@@ -42,5 +42,5 @@ It permit you to initialize your Realm Object directly from SwiftyJSON object, b
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'RealmSwift'
-  s.dependency 'SwiftyJSON'
+#s.dependency 'SwiftyJSON'
 end
