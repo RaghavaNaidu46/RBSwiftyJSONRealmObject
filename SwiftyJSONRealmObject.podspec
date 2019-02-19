@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RBSwiftyJSONRealmObject'
+  s.name             = 'SwiftyJSONRealmObject'
   s.version          = '1.0.0'
   s.summary          = 'A easy way to use SwiftyJSON object with Realm'
 
